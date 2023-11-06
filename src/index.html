@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/selectContainer.css">
+    <link rel="stylesheet" href="./styles/listContainer.css">
+    <script src="https://kit.fontawesome.com/dab08a0118.js" crossorigin="anonymous"></script>
+    <title>Shop</title>
+</head>
+
+<body>
+    <div class="root">
+
+        <header>
+            <label>selected_Language</label>
+            <span><h1>ELLE</h1><h1>PHARM</h1></span>
+            <label><i class="fa-solid  fa-bag-shopping" style="font-size: x-large;"></i><sub class="my_cart_quantity">0</sub></label>
+        </header>
+        
+        
+
+        <main>
+            <div class="rowAboutPage">
+                <ul>
+                    <li>Home</li>/
+                    <li>Shop</li>
+                </ul>  
+                <h1 class="page_title">All products</h1>
+            </div>
+
+            <div class="SortingTool">
+                <label id="results">Results</label>
+                <select id='sortingVariants' >
+                    <option aria-disabled="false" selected disabled value='none'>Sort By</option>
+                    <option value="opt1">
+                        High To Low
+                    </option>
+                    <option value="opt2">
+                        Low To High
+                    </option>
+                    <option value="opt3">
+                        A to Z
+                    </option>
+                    <option value="opt4">
+                        Z to A
+                    </option>
+                </select>
+            </div>
+
+           <div class="shop_Wrapper" >
+
+            <section class="selectContainer">
+               <ul class="selectList">
+                    <li class="selectListItem Categories">
+                        <div class="toggle" id="optTitle">Categories<i class="toggle fa-solid fa-angle-down"></i></div>
+                            <ul class="subCategoryList"></ul>
+                    </li>
+
+                    <li class="selectListItem">
+                        <div class="toggle" id="optTitle" >Brands <i class="toggle fa-solid fa-angle-down"></i></div> 
+                        <ul class="toggle BrandsDetails" >
+                            <li class="letters_filter">
+                                <a href="#" class="btn-letter" data-letter="A">A</a>
+                                <a href="#" class="btn-letter" data-letter="B">B</a>
+                                <a href="#" class="btn-letter" data-letter="C">C</a>
+                                <a href="#" class="btn-letter" data-letter="D">D</a>
+                                <a href="#" class="btn-letter" data-letter="E">E</a>
+                                <a href="#" class="btn-letter" data-letter="F">F</a>
+                                <a href="#" class="btn-letter" data-letter="G">G</a>
+                                <a href="#" class="btn-letter" data-letter="H">H</a>
+                                <a href="#" class="btn-letter" data-letter="I">I</a>
+                                <a href="#" class="btn-letter" data-letter="J">J</a>
+                                <a href="#" class="btn-letter" data-letter="K">K</a>
+                                <a href="#" class="btn-letter" data-letter="L">L</a>
+                                <a href="#" class="btn-letter" data-letter="M">M</a>
+                                <a href="#" class="btn-letter" data-letter="N">N</a>
+                                <a href="#" class="btn-letter" data-letter="O">O</a>
+                                <a href="#" class="btn-letter" data-letter="P">P</a>
+                                <a href="#" class="btn-letter" data-letter="Q">Q</a>
+                                <a href="#" class="btn-letter" data-letter="R">R</a>
+                                <a href="#" class="btn-letter" data-letter="S">S</a>
+                                <a href="#" class="btn-letter" data-letter="T">T</a>
+                                <a href="#" class="btn-letter" data-letter="U">U</a>
+                                <a href="#" class="btn-letter" data-letter="V">V</a>
+                                <a href="#" class="btn-letter" data-letter="W">W</a>
+                                <a href="#" class="btn-letter" data-letter="X">X</a>
+                                <a href="#" class="btn-letter" data-letter="Y">Y</a>
+                                <a href="#" class="btn-letter" data-letter="Z">Z</a>
+                                <a href="#" class="btn-letter" data-letter="0-9">0-9</a>
+                                <a href="#" class="btn-letter" data-letter="&amp;">&amp;</a>
+                        </li>
+                                
+                            <li>
+                                <form class="BrandSearchBox">
+                                    <input type="text" placeholder="Search for brand..."> 
+                                    <button><i class="fa-solid fa-magnifying-glass" style="font-size: larger;"></i></button>
+                                </form>
+                                <ul class="brandList">
+                                    <label class="BrandListItem">
+                                        <label><input type="checkbox">All Brands</label>
+                                    </label>
+                                    <label class="BrandListItem">
+                                        <label ><input type="checkbox">brand_Name</label><span>brand_icon</span>
+                                    </label>
+                                    <label class="BrandListItem">
+                                        <label ><input type="checkbox">brand_Name</label><span>brand_icon</span>
+                                    </label>
+                                    <label class="BrandListItem">
+                                        <label ><input type="checkbox">brand_Name</label><span>brand_icon</span>
+                                    </label>
+                                    <label class="BrandListItem">
+                                        <label ><input type="checkbox">brand_Name</label><span>brand_icon</span>
+                                    </label>
+                                    <label class="BrandListItem">
+                                        <label ><input type="checkbox">brand_Name</label><span>brand_icon</span>
+                                    </label>
+                                    <label class="BrandListItem">
+                                        <label ><input type="checkbox">brand_Name</label><span>brand_icon</span>
+                                    </label>
+                                    <label class="BrandListItem">
+                                        <label ><input type="checkbox">brand_Name</label><span>brand_icon</span>
+                                    </label>
+                                    <label class="BrandListItem">
+                                        <label ><input type="checkbox">brand_Name</label><span>brand_icon</span>
+                                    </label>
+                                    <label class="BrandListItem">
+                                        <label ><input type="checkbox">brand_Name</label><span>brand_icon</span>
+                                    </label>
+                                    <label class="BrandListItem">
+                                        <label ><input type="checkbox">brand_Name</label><span>brand_icon</span>
+                                    </label>
+                                    
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="selectListItem">
+                        <div class="toggle" id="optTitle">Manufacturers <i class="toggle fa-solid fa-angle-down"></i></div>
+                          <ul class="toggle ManufacturersList">
+                            <li class="subManufacturers"><label><input type="checkbox">ManufacturersCheck</label></li>
+                            <li class="subManufacturers"><label><input type="checkbox">ManufacturersCheck</label></li>
+                            <li class="subManufacturers"><label><input type="checkbox">ManufacturersCheck</label></li>
+                            <li class="subManufacturers"><label><input type="checkbox">ManufacturersCheck</label></li>
+                            <li class="subManufacturers"><label><input type="checkbox">ManufacturersCheck</label></li>
+                            <li class="subManufacturers"><label><input type="checkbox">ManufacturersCheck</label></li>
+                            <li class="subManufacturers"><label><input type="checkbox">ManufacturersCheck</label></li>
+                            <li class="subManufacturers"><label><input type="checkbox">ManufacturersCheck</label></li>
+                            <li class="subManufacturers"><label><input type="checkbox">ManufacturersCheck</label></li>
+                            <li class="subManufacturers"><label><input type="checkbox">ManufacturersCheck</label></li>
+                            <li class="subManufacturers"><label><input type="checkbox">ManufacturersCheck</label></li>
+                            <li class="subManufacturers"><label><input type="checkbox">ManufacturersCheck</label></li>
+                            <li class="subManufacturers"><label><input type="checkbox">ManufacturersCheck</label></li>
+                          </ul>
+                    </li>
+
+                    <li>
+                        <div class="toggle" id="optTitle" >Price <i class="toggle fa-solid fa-angle-down"></i></div>
+                        <div class="toggle PriceContainer" >
+                            <div class="range-slider">
+                                <input type="range" class="min-price" value="0" min="0" max="352" step="3">
+                                <input type="range" class="max-price" value="50" min="0" max="352" step="3">
+                            </div>
+
+                            <div class="price-content">
+                                  <p id="current-value">$50</p>
+                                  <p id="max-value">500</p>
+                              </div>
+                        </div>
+                    </li>
+               </ul>
+
+               <button id="clearBtn">CLEAR</button>
+            </section>
+
+            <section class="BrandsList">
+                <!-- DATA -->
+            </section>
+              
+           </div>
+        </main>
+
+        <footer>
+
+        </footer>
+
+        <script type="module" src="./scripts/list.js"></script>
+        <script type="module" src="./scripts/select.js" ></script>
+    </div>
+</body>
+</html>
